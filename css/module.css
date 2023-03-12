@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background--color-1: black;
+
+    --white--color: white;
+    --white--color-1: rgba(240, 240, 240, 0.1);
+
+    --gray--color: #262626;
+    --gray--color-1: gray;
+    --gray--color-2: rgb(167, 164, 164);
+
+    --blue--color: rgb(52, 52, 238);
+
+    --boder-color: teal;
+
+
+
+
+}
+
+body {
+    background: url(https://phunugioi.com/wp-content/uploads/2020/03/hinh-nen-mau-den-cho-may-tinh-820x461.jpg);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+/*--header--*/
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--white--color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.header .header-logo a {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 10%;
+    text-decoration: none;
+    color: var(--white--color);
+}
+
+.header .header-logo a img {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+
+.header .header-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 50px;
+}
+
+.header .header-search .header-search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--gray--color-1);
+    border-radius: 2px;
+    background-color: var(--gray--color);
+}
+
+.header .header-search .header-search-input input {
+    outline: none;
+    border: 0;
+    background-color: var(--gray--color);
+    color: var(--white--color);
+    font-size: 16px;
+    padding: 16px 60px 16px 20px;
+}
+
+.header .header-search .header-search-input .fa-search {
+    position: absolute;
+    right: 6%;
+    font-size: 20px;
+    border-left: 1px solid var(--gray--color-1);
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+/*--selects container--*/
+
+.selects ul {
+    display: flex;
+    color: var(--gray--color-1);
+    gap: 5%;
+    list-style: none;
+    cursor: pointer;
+    padding: 2%;
+    margin-left: 100px;
+}
+
+.selects ul li:hover {
+    color: var(--white--color);
+}
+
+/*--img--*/
+
+.img img{
+  width: 100%;
+  height: 600px;
+}
+
+.img p {
+    position: absolute;
+    color: var(--white--color);
+    font-size: 50px;
+    padding: 150px 50px;
+}
+
+/*===============================================================================*/
+.introduce {
+    width: 90%;
+    margin: auto;
+    color: var(--white--color);
+}
+
+.introduce .content {
+    margin-top: 3%;
+    width: 60%;
+    font-size: 16px;
+}
+
+.introduce .review {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.introduce .review .data {
+    width: 30%;
+    margin-top: 40px;
+    border-left: 1px solid var(--boder-color);
+    padding: 20px;
+}
+
+.introduce .review .data .speed {
+    font-size: 40px;
+}
+
+.introduce .content h2 {
+    border-top: 1px solid;
+    padding: 20px 0;
+}
+
+.introduce img {
+    margin-top: 2%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.video {
+    color: var(--white--color);
+}
+
+.video p {
+    width: 90%;
+    margin: auto;
+    padding: 3% 0 0 0;
+}
+
+.video h2 {
+    width: 90%;
+    margin: auto;
+    padding: 2% 0 3% 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.testCar {
+    color: var(--white--color);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    gap: 20px;
+    margin: 10% 0;
+    padding: 20px;
+    border: 1px solid var(--gray--color-1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.testCar:hover {
+    background-color: var(--gray--color-1);
+}
+
+
+/*===============================================================================*/
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--gray--color-1);
+    padding-bottom: 2%;
+}
+
+.footer .footerOne {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-left: 7%;
+    cursor: pointer;
+}
+
+.footer .footerOne p:hover {
+    color: var(--white--color);
+}
+
+.footer .footerTwo {
+    margin-right: 7%;
+}
+
+.footer .footerTwo i {
+    font-size: 30px;
+    margin-right: 20px;
+    color: var(--white--color);
+    cursor: pointer;
+}

@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background--color-1: black;
+
+    --white--color: white;
+    --white--color-1: rgba(240, 240, 240, 0.1);
+
+    --gray--color: #262626;
+    --gray--color-1: gray;
+    --gray--color-2: rgb(167, 164, 164);
+
+    --blue--color: rgb(52, 52, 238);
+
+}
+
+body {
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.login {
+    position: absolute;
+    background: rgba(5, 5, 5, 0.8);
+    color: var(--white--color);
+    width: 40%;
+    padding: 5%;
+    text-align: center;
+    top: 100px;
+    right: 30%;
+    border-radius: 20px;
+    border: 2px solid var(--white--color);
+}
+
+.login.removeLogin {
+    display: none;
+}
+
+.login h3 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.login h3:hover {
+    color: var(--gray--color-1);
+}
+
+.login h2 {
+    font-size: 40px;
+}
+
+.login input {
+    padding: 15px;
+    width: 70%;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--gray--color-1);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.login button {
+    margin-top: 30px;
+    width: 40%;
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid var(--gray--color-1);
+}
+
+.login button a {
+    text-decoration: none;
+    color: var(--gray--color);
+}
+
+.login button:hover {
+    cursor: pointer;
+    background-color: var(--gray--color-1);
+}
+.login p {
+    cursor: pointer;
+    margin-top: 10px;
+    color: var(--blue--color);
+}
+
+.login p:hover {
+    color: var(--gray--color-1);
+}
+
+/*========================================================================================================*/
+
+.register {
+    position: absolute;
+    background: rgba(5, 5, 5, 0.8);
+    color: var(--white--color);
+    width: 40%;
+    padding: 5%;
+    text-align: center;
+    top: 100px;
+    right: 30%;
+    border-radius: 20px;
+    border: 2px solid var(--white--color);
+}
+
+.register.removeLogin {
+    display: none;
+}
+
+.register h3 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.register h3:hover {
+    color: var(--gray--color-1);
+}
+
+.register h2 {
+    font-size: 40px;
+}
+
+.register input {
+    padding: 15px;
+    width: 70%;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--gray--color-1);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.register button {
+    margin-top: 30px;
+    width: 40%;
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid var(--gray--color-1);
+}
+
+.register button a {
+    text-decoration: none;
+    color: var(--gray--color);
+}
+
+.register button:hover {
+    cursor: pointer;
+    background-color: var(--gray--color-1);
+}
+
+.register p {
+    cursor: pointer;
+    margin-top: 10px;
+    color: var(--blue--color);
+}
+
+.register p:hover {
+    color: var(--gray--color-1);
+}
